@@ -2,7 +2,7 @@ body{
 
 }
 
-.background{
+.slide1{
     position: absolute;
     width: 100%;
     height: 1000px;
@@ -10,4 +10,44 @@ body{
     z-index: -1;
 
     background-image: url('./imagens/0001.jpg');
+}
+
+.slide2{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    opacity: 0.5;
+    z-index: -1;
+
+    background-image: url('./imagens/0002.jpg');
+}
+
+.slide3{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    opacity: 0.5;
+    z-index: -1;
+
+    background-image: url('./imagens/0003.jpg');
+}
+
+.slide4{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    opacity: 0.5;
+    z-index: -1;
+
+    background-image: url('./imagens/0004.jpg');
+}
+
+.slide5{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    opacity: 0.5;
+    z-index: -1;
+
+    background-image: url('./imagens/0005.jpg');
 }
