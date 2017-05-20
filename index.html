@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Sant'AS</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     </head>
 
     <body>
@@ -32,9 +33,26 @@
 
         <section class="slide5">
             <!--No slide5 aplicaremos modal para usuário deixar os contatos  -->
-            <img class="slide5_foto1" src="imagens/slide5_foto1.png" alt="">
-        </section>
+            <section onclick="toggleModal()">
+      <button class="buttonAbertura">Entre em contato</button>
+      </section>
+  <div class="modal fade">
+        <div class="body">
+        <form>
+        <input type="text" placeholder="Nome">
+        <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="Telefone">
+        <textarea rows="5" placeholder="Mensagem"></textarea>
+        <br>
+        </form>
 
+        <button class="button" onclick="validateForm()">Enviar</button>
+
+          <button onclick="toggleModal()">Volte para a página principal</button>
+      </div>
+  </div>
+</section>
+</body>
         <script src="script.js"></script>
 
     </body>
