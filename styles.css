@@ -84,6 +84,19 @@ body{
     height: 760px;
 }
 
-.slide5 .slide5_foto1{
+.button{
+  background-color: black;
+  width: 50px;
+  height: 23px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: 5px;
+}
 
+.form{
+  font-family: sans-serif;
+  border: 10px;
+  margin-left: 800px;
+  padding-top: 600px;
 }
