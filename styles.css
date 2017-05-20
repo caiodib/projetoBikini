@@ -84,6 +84,60 @@ body{
     height: 760px;
 }
 
-.slide5 .slide5_foto1{
-
+.button{
+  background-color: black;
+  width: 50px;
+  height: 23px;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: 5px;
 }
+
+.buttonAbertura{
+  background-color: black;
+  width: 200px;
+  height: 70px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 20px;
+  border-radius: 5px;
+  border: 5px;
+  margin-left: 645px;
+  margin-top: 400px;
+}
+
+.input .textarea{
+  font-family: 'Raleway';
+  margin-left: 800px;
+  padding-top: 500px;
+  border: 5px;
+  border-radius: 10px;
+}
+
+.modal{
+    width: 50%;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    background-color: white;
+    left: 0;
+    margin-left: 25%;
+    padding: 35px 50px;
+    opacity: 0;
+}
+.fade{
+    transition-timing-function: ease;
+    transition: 0.5s;
+}
+.modal.header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.modal.active{
+  opacity: 1;
+}
+</style>
+
